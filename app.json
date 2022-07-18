@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "rockeseat_help",
+    "slug": "rockeseat_help",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
