@@ -1,10 +1,21 @@
 {
   "expo": {
-    "name": "rockeseat_help",
-    "slug": "rockeseat_help",
+    "name": "rocketseat_help",
+    "slug": "rocketseat_help",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.rockethelp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rockethelp",
+      "googleServicesFile": "./googleService-Info.plist"
+    }
   }
 }
